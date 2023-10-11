@@ -1,0 +1,27 @@
+{
+    "meta-llama/Llama-2-7b-chat-hf": {
+        "truthfulqa_mc": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 0,
+                "batch_size": "2",
+                "elapsed_time": [
+                    279.48711767700115,
+                    227.0378921069987
+                ]
+            }
+        ]
+    },
+    "tiiuae/falcon-7b": {
+        "truthfulqa_mc": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 0,
+                "batch_size": "2",
+                "elapsed_time": [
+                    205.24363218299914
+                ]
+            }
+        ]
+    }
+}

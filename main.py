@@ -2,14 +2,18 @@ import argparse
 import json
 import logging
 import os
-
+from time import perf_counter
 from lm_eval import tasks, evaluator, utils
+from huggingface_hub import login
+
+
 
 logging.getLogger("openai").setLevel(logging.WARNING)
 
 
 def parse_args():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--machine", required = False, default = "unknown")
     parser.add_argument("--model", required=True)
     parser.add_argument("--model_args", default="")
     parser.add_argument(
@@ -100,6 +104,48 @@ def main():
     )
     print(evaluator.make_table(results))
 
+    return args
+
 
 if __name__ == "__main__":
-    main()
+    login(token="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")
+    start = perf_counter()
+    args = main()
+    end = perf_counter()
+    time_count_file = "tests_elapsed_times.json"
+    time_count = {}
+    model = args.model_args.split("=")[-1]
+
+    if not os.path.exists(time_count_file):
+        with open(time_count_file, "w") as json_file:
+            json.dump({}, json_file)
+    with open(time_count_file, "r") as json_file:
+        data = json.load(json_file)
+    if model not in data:
+        data[model] = {}
+
+    elapsed_time = end - start
+    if args.tasks not in data[model]:
+        data[model][args.tasks] = []
+
+    def get_run_info(runs: list, args) -> dict:
+        found = False        
+        for run in runs:
+            found = (run["num_fewshot"] == args.num_fewshot and 
+                     run["batch_size"] == args.batch_size and
+                     run["machine"] == args.machine)
+            if found:
+                return run
+        runs.append({"machine": args.machine,
+                    "num_fewshot": args.num_fewshot, 
+                    "batch_size": args.batch_size,
+                    "elapsed_time": []})
+        return runs[-1]
+
+    run_info = get_run_info(data[model][args.tasks], args)
+    run_info['elapsed_time'].append(elapsed_time)
+
+    with open(time_count_file, "w") as json_file:
+        json.dump(data, json_file, indent=4)
+
+    
