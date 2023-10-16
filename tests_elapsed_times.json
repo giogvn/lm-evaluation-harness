@@ -7,7 +7,159 @@
                 "batch_size": "2",
                 "elapsed_time": [
                     279.48711767700115,
-                    227.0378921069987
+                    227.0378921069987,
+                    649.3770885419999,
+                    180.6298435509998,
+                    180.54396505899786,
+                    183.08113232899996
+                ]
+            }
+        ],
+        "hendrycksTest-abstract_algebra": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    241.16057533100002,
+                    180.42891879399986
+                ]
+            }
+        ],
+        "hendrycksTest-anatomy": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    258.5687715270001,
+                    178.87279820699996
+                ]
+            }
+        ],
+        "hendrycksTest-astronomy": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    321.0235514240003,
+                    179.666066022
+                ]
+            }
+        ],
+        "hellaswag": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 10,
+                "batch_size": "2",
+                "elapsed_time": [
+                    13767.584875779
+                ]
+            }
+        ],
+        "hendrycksTest-business_ethics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    273.24232216900054,
+                    180.4485020019997
+                ]
+            }
+        ],
+        "hendrycksTest-clinical_knowledge": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    353.6086987150011,
+                    180.01330077000011
+                ]
+            }
+        ],
+        "hendrycksTest-college_chemistry": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    264.3557297219995,
+                    179.13890595300018
+                ]
+            }
+        ],
+        "hendrycksTest-college_computer_science": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    303.69381401400096,
+                    180.0290893389997
+                ]
+            }
+        ],
+        "hendrycksTest-college_mathematics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    268.53242509700067,
+                    180.19568913399962
+                ]
+            }
+        ],
+        "hendrycksTest-college_physics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    251.488074091998
+                ]
+            }
+        ],
+        "hendrycksTest-computer_security": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    241.44638261600267
+                ]
+            }
+        ],
+        "hendrycksTest-conceptual_physics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    289.19842505700217
+                ]
+            }
+        ],
+        "hendrycksTest-econometrics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    288.20213686200077
+                ]
+            }
+        ],
+        "hendrycksTest-electrical_engineering": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    278.68856378800047
                 ]
             }
         ]

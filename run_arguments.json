@@ -5,7 +5,7 @@
     "expensive_tasks": ["hellaswag"],
     "cheap_tasks" : ["arc_challenge","truthfulqa_mc", "hendrycksTest-abstract_algebra",
                 "hendrycksTest-anatomy","hendrycksTest-astronomy",
-                "hellaswag","truthfulqa_mc","hendrycksTest-business_ethics",
+                "hendrycksTest-business_ethics",
                 "hendrycksTest-clinical_knowledge",
                 "hendrycksTest-coliology",
                 "hendrycksTest-college_chemistry",
