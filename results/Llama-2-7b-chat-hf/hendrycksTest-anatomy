@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hendrycksTest-anatomy": {
+      "acc": 0.42962962962962964,
+      "acc_stderr": 0.04276349494376599,
+      "acc_norm": 0.42962962962962964,
+      "acc_norm_stderr": 0.04276349494376599
+    }
+  },
+  "versions": {
+    "hendrycksTest-anatomy": 1
+  },
+  "config": {
+    "model": "hf-causal",
+    "model_args": "pretrained=meta-llama/Llama-2-7b-chat-hf",
+    "num_fewshot": 5,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

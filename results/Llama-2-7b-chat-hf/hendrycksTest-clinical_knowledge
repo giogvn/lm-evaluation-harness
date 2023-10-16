@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hendrycksTest-clinical_knowledge": {
+      "acc": 0.5207547169811321,
+      "acc_stderr": 0.030746349975723463,
+      "acc_norm": 0.5207547169811321,
+      "acc_norm_stderr": 0.030746349975723463
+    }
+  },
+  "versions": {
+    "hendrycksTest-clinical_knowledge": 1
+  },
+  "config": {
+    "model": "hf-causal",
+    "model_args": "pretrained=meta-llama/Llama-2-7b-chat-hf",
+    "num_fewshot": 5,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
