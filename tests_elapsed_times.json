@@ -11,7 +11,9 @@
                     649.3770885419999,
                     180.6298435509998,
                     180.54396505899786,
-                    183.08113232899996
+                    183.08113232899996,
+                    183.01123671200003,
+                    184.17853716799982
                 ]
             }
         ],
@@ -22,7 +24,11 @@
                 "batch_size": "2",
                 "elapsed_time": [
                     241.16057533100002,
-                    180.42891879399986
+                    180.42891879399986,
+                    178.68593530500038,
+                    281.89487930199994,
+                    181.012089929,
+                    180.56670984999982
                 ]
             }
         ],
@@ -33,7 +39,9 @@
                 "batch_size": "2",
                 "elapsed_time": [
                     258.5687715270001,
-                    178.87279820699996
+                    178.87279820699996,
+                    179.07589729699976,
+                    180.3333550260013
                 ]
             }
         ],
@@ -44,7 +52,9 @@
                 "batch_size": "2",
                 "elapsed_time": [
                     321.0235514240003,
-                    179.666066022
+                    179.666066022,
+                    179.3795956269987,
+                    180.50336303699987
                 ]
             }
         ],
@@ -65,7 +75,9 @@
                 "batch_size": "2",
                 "elapsed_time": [
                     273.24232216900054,
-                    180.4485020019997
+                    180.4485020019997,
+                    179.68483293200006,
+                    180.29594119799913
                 ]
             }
         ],
@@ -76,7 +88,9 @@
                 "batch_size": "2",
                 "elapsed_time": [
                     353.6086987150011,
-                    180.01330077000011
+                    180.01330077000011,
+                    179.15162730800148,
+                    180.69311974600168
                 ]
             }
         ],
@@ -87,7 +101,9 @@
                 "batch_size": "2",
                 "elapsed_time": [
                     264.3557297219995,
-                    179.13890595300018
+                    179.13890595300018,
+                    178.65095632599878,
+                    180.32704543300133
                 ]
             }
         ],
@@ -98,7 +114,9 @@
                 "batch_size": "2",
                 "elapsed_time": [
                     303.69381401400096,
-                    180.0290893389997
+                    180.0290893389997,
+                    178.7050252049994,
+                    180.30048212600013
                 ]
             }
         ],
@@ -109,7 +127,9 @@
                 "batch_size": "2",
                 "elapsed_time": [
                     268.53242509700067,
-                    180.19568913399962
+                    180.19568913399962,
+                    180.08661410599962,
+                    180.3005813480013
                 ]
             }
         ],
@@ -119,7 +139,9 @@
                 "num_fewshot": 5,
                 "batch_size": "2",
                 "elapsed_time": [
-                    251.488074091998
+                    251.488074091998,
+                    178.98808718200053,
+                    178.7063602950002
                 ]
             }
         ],
@@ -129,7 +151,9 @@
                 "num_fewshot": 5,
                 "batch_size": "2",
                 "elapsed_time": [
-                    241.44638261600267
+                    241.44638261600267,
+                    179.37584941800014,
+                    179.73274286599917
                 ]
             }
         ],
@@ -139,7 +163,9 @@
                 "num_fewshot": 5,
                 "batch_size": "2",
                 "elapsed_time": [
-                    289.19842505700217
+                    289.19842505700217,
+                    182.20859138200012,
+                    180.25003920600284
                 ]
             }
         ],
@@ -149,7 +175,9 @@
                 "num_fewshot": 5,
                 "batch_size": "2",
                 "elapsed_time": [
-                    288.20213686200077
+                    288.20213686200077,
+                    178.83072468499995,
+                    178.68039853800292
                 ]
             }
         ],
@@ -159,7 +187,241 @@
                 "num_fewshot": 5,
                 "batch_size": "2",
                 "elapsed_time": [
-                    278.68856378800047
+                    278.68856378800047,
+                    182.7227134269997,
+                    178.69365803799883
+                ]
+            }
+        ],
+        "hendrycksTest-elementary_mathematics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    326.4050376130008,
+                    180.2008065509981
+                ]
+            }
+        ],
+        "hendrycksTest-formal_logic": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    305.51505597599953,
+                    179.09494431699932
+                ]
+            }
+        ],
+        "hendrycksTest-global_facts": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    253.17056904899982,
+                    183.3470105790002
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_biology": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    431.8973103600001,
+                    179.09588997800165
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_chemistry": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    339.30332280399944,
+                    178.97100904500257
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_computer_science": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    324.7954015920004,
+                    178.72829671699947
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_geography": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    307.4961875560002,
+                    179.2427474549986
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_government_and_politics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    322.0776374420002,
+                    178.955126664001
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_macroeconomics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    423.1486211780011,
+                    179.1532616930017
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_mathematics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    391.8869936120009,
+                    178.48780188900128
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_microeconomics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    333.7199034309997,
+                    178.54293464200236
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_physics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    315.9050137060003,
+                    178.13944837099916
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_psychology": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    601.656283242999
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_statistics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    456.11407340200094
+                ]
+            }
+        ],
+        "hendrycksTest-human_aging": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    301.90850150500046
+                ]
+            }
+        ],
+        "hendrycksTest-human_sexuality": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    259.64953898599924
+                ]
+            }
+        ],
+        "hendrycksTest-international_law": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    306.02049611500115
+                ]
+            }
+        ],
+        "hendrycksTest-jurisprudence": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    252.43011915399984
+                ]
+            }
+        ],
+        "hendrycksTest-logical_fallacies": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    297.30416644399884
+                ]
+            }
+        ],
+        "hendrycksTest-machine_learning": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    297.8410528880013
+                ]
+            }
+        ],
+        "hendrycksTest-management": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    228.5904690790012
+                ]
+            }
+        ],
+        "hendrycksTest-marketing": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    337.2113777059967
                 ]
             }
         ]

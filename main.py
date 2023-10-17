@@ -5,6 +5,7 @@ import os
 from time import perf_counter
 from lm_eval import tasks, evaluator, utils
 from huggingface_hub import login
+import file_utils as fu
 
 
 
@@ -104,17 +105,23 @@ def main():
     )
     print(evaluator.make_table(results))
 
-    return args
+    return args, dumped
 
 
 if __name__ == "__main__":
     login(token="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")
     start = perf_counter()
-    args = main()
+    args, results_dict = main()
     end = perf_counter()
     time_count_file = "tests_elapsed_times.json"
     time_count = {}
     model = args.model_args.split("=")[-1]
+    elapsed_time = end - start
+    task = args.tasks
+    machine = args.machine
+
+    fu.add_result_to_csv(results_dict,"runs_info.csv",model,machine,
+                            task, elapsed_time)
 
     if not os.path.exists(time_count_file):
         with open(time_count_file, "w") as json_file:
@@ -124,7 +131,6 @@ if __name__ == "__main__":
     if model not in data:
         data[model] = {}
 
-    elapsed_time = end - start
     if args.tasks not in data[model]:
         data[model][args.tasks] = []
 

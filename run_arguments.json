@@ -1,9 +1,9 @@
 {
-    "few_shot": {"arc_challenge":"25", "hendrycksTest":"5",
+    "num_fewshot": {"arc_challenge":"25", "hendrycksTest":"5",
                  "hellaswag": "10", "truthfulqa_mc": "0"},
     "models": ["meta-llama/Llama-2-7b-chat-hf","tiiuae/falcon-7b"],
-    "expensive_tasks": ["hellaswag"],
-    "cheap_tasks" : ["arc_challenge","truthfulqa_mc", "hendrycksTest-abstract_algebra",
+    "expensive_tasks": ["hellaswag", "arc_challenge"],
+    "cheap_tasks" : ["truthfulqa_mc", "hendrycksTest-abstract_algebra",
                 "hendrycksTest-anatomy","hendrycksTest-astronomy",
                 "hendrycksTest-business_ethics",
                 "hendrycksTest-clinical_knowledge",
