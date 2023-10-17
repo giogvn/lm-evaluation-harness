@@ -1,0 +1,2 @@
+cloud,machine,strategy,cost(US$/hour)
+aws,p3.2xlarge,HF,3.06
