@@ -1,7 +1,7 @@
 {
     "num_fewshot": {"arc_challenge":"25", "hendrycksTest":"5",
                  "hellaswag": "10", "truthfulqa_mc": "0"},
-    "models": ["meta-llama/Llama-2-7b-chat-hf","tiiuae/falcon-7b"],
+    "models": ["tiiuae/falcon-7b", "meta-llama/Llama-2-7b-chat-hf"],
     "expensive_tasks": ["hellaswag", "arc_challenge"],
     "cheap_tasks" : ["truthfulqa_mc", "hendrycksTest-abstract_algebra",
                 "hendrycksTest-anatomy","hendrycksTest-astronomy",

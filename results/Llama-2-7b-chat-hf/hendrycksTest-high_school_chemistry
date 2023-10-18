@@ -1,14 +1,14 @@
 {
   "results": {
-    "hendrycksTest-elementary_mathematics": {
-      "acc": 0.29365079365079366,
-      "acc_stderr": 0.023456037383982022,
-      "acc_norm": 0.29365079365079366,
-      "acc_norm_stderr": 0.023456037383982022
+    "hendrycksTest-high_school_chemistry": {
+      "acc": 0.37438423645320196,
+      "acc_stderr": 0.03405155380561952,
+      "acc_norm": 0.37438423645320196,
+      "acc_norm_stderr": 0.03405155380561952
     }
   },
   "versions": {
-    "hendrycksTest-elementary_mathematics": 1
+    "hendrycksTest-high_school_chemistry": 1
   },
   "config": {
     "model": "hf-causal",

@@ -1,14 +1,14 @@
 {
   "results": {
-    "hendrycksTest-elementary_mathematics": {
-      "acc": 0.29365079365079366,
-      "acc_stderr": 0.023456037383982022,
-      "acc_norm": 0.29365079365079366,
-      "acc_norm_stderr": 0.023456037383982022
+    "hendrycksTest-high_school_macroeconomics": {
+      "acc": 0.41794871794871796,
+      "acc_stderr": 0.02500732988246122,
+      "acc_norm": 0.41794871794871796,
+      "acc_norm_stderr": 0.02500732988246122
     }
   },
   "versions": {
-    "hendrycksTest-elementary_mathematics": 1
+    "hendrycksTest-high_school_macroeconomics": 1
   },
   "config": {
     "model": "hf-causal",

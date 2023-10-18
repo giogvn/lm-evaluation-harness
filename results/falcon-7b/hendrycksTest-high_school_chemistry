@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hendrycksTest-high_school_chemistry": {
+      "acc": 0.2561576354679803,
+      "acc_stderr": 0.0307127300709826,
+      "acc_norm": 0.2561576354679803,
+      "acc_norm_stderr": 0.0307127300709826
+    }
+  },
+  "versions": {
+    "hendrycksTest-high_school_chemistry": 1
+  },
+  "config": {
+    "model": "hf-causal",
+    "model_args": "pretrained=tiiuae/falcon-7b",
+    "num_fewshot": 5,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

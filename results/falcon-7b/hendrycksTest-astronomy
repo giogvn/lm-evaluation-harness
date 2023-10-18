@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hendrycksTest-astronomy": {
+      "acc": 0.23684210526315788,
+      "acc_stderr": 0.034597776068105365,
+      "acc_norm": 0.23684210526315788,
+      "acc_norm_stderr": 0.034597776068105365
+    }
+  },
+  "versions": {
+    "hendrycksTest-astronomy": 1
+  },
+  "config": {
+    "model": "hf-causal",
+    "model_args": "pretrained=tiiuae/falcon-7b",
+    "num_fewshot": 5,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

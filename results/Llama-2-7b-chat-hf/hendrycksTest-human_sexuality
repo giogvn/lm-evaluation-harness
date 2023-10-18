@@ -1,14 +1,14 @@
 {
   "results": {
-    "hendrycksTest-elementary_mathematics": {
-      "acc": 0.29365079365079366,
-      "acc_stderr": 0.023456037383982022,
-      "acc_norm": 0.29365079365079366,
-      "acc_norm_stderr": 0.023456037383982022
+    "hendrycksTest-human_sexuality": {
+      "acc": 0.4732824427480916,
+      "acc_stderr": 0.04379024936553893,
+      "acc_norm": 0.4732824427480916,
+      "acc_norm_stderr": 0.04379024936553893
     }
   },
   "versions": {
-    "hendrycksTest-elementary_mathematics": 1
+    "hendrycksTest-human_sexuality": 1
   },
   "config": {
     "model": "hf-causal",

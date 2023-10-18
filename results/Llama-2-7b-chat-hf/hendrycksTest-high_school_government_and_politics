@@ -1,14 +1,14 @@
 {
   "results": {
-    "hendrycksTest-elementary_mathematics": {
-      "acc": 0.29365079365079366,
-      "acc_stderr": 0.023456037383982022,
-      "acc_norm": 0.29365079365079366,
-      "acc_norm_stderr": 0.023456037383982022
+    "hendrycksTest-high_school_government_and_politics": {
+      "acc": 0.6683937823834197,
+      "acc_stderr": 0.03397636541089118,
+      "acc_norm": 0.6683937823834197,
+      "acc_norm_stderr": 0.03397636541089118
     }
   },
   "versions": {
-    "hendrycksTest-elementary_mathematics": 1
+    "hendrycksTest-high_school_government_and_politics": 1
   },
   "config": {
     "model": "hf-causal",

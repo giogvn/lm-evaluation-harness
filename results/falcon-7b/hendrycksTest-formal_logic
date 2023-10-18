@@ -1,10 +1,10 @@
 {
   "results": {
     "hendrycksTest-formal_logic": {
-      "acc": 0.24603174603174602,
-      "acc_stderr": 0.038522733649243156,
-      "acc_norm": 0.24603174603174602,
-      "acc_norm_stderr": 0.038522733649243156
+      "acc": 0.20634920634920634,
+      "acc_stderr": 0.0361960452412425,
+      "acc_norm": 0.20634920634920634,
+      "acc_norm_stderr": 0.0361960452412425
     }
   },
   "versions": {
@@ -12,7 +12,7 @@
   },
   "config": {
     "model": "hf-causal",
-    "model_args": "pretrained=meta-llama/Llama-2-7b-chat-hf",
+    "model_args": "pretrained=tiiuae/falcon-7b",
     "num_fewshot": 5,
     "batch_size": "2",
     "batch_sizes": [],

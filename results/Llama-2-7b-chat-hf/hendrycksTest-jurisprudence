@@ -1,14 +1,14 @@
 {
   "results": {
-    "hendrycksTest-elementary_mathematics": {
-      "acc": 0.29365079365079366,
-      "acc_stderr": 0.023456037383982022,
-      "acc_norm": 0.29365079365079366,
-      "acc_norm_stderr": 0.023456037383982022
+    "hendrycksTest-jurisprudence": {
+      "acc": 0.5555555555555556,
+      "acc_stderr": 0.04803752235190193,
+      "acc_norm": 0.5555555555555556,
+      "acc_norm_stderr": 0.04803752235190193
     }
   },
   "versions": {
-    "hendrycksTest-elementary_mathematics": 1
+    "hendrycksTest-jurisprudence": 1
   },
   "config": {
     "model": "hf-causal",

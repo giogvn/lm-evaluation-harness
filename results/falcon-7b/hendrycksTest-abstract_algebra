@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hendrycksTest-abstract_algebra": {
+      "acc": 0.25,
+      "acc_stderr": 0.04351941398892446,
+      "acc_norm": 0.25,
+      "acc_norm_stderr": 0.04351941398892446
+    }
+  },
+  "versions": {
+    "hendrycksTest-abstract_algebra": 1
+  },
+  "config": {
+    "model": "hf-causal",
+    "model_args": "pretrained=tiiuae/falcon-7b",
+    "num_fewshot": 5,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

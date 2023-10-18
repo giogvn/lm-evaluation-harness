@@ -1,14 +1,14 @@
 {
   "results": {
-    "hendrycksTest-elementary_mathematics": {
-      "acc": 0.29365079365079366,
-      "acc_stderr": 0.023456037383982022,
-      "acc_norm": 0.29365079365079366,
-      "acc_norm_stderr": 0.023456037383982022
+    "hendrycksTest-logical_fallacies": {
+      "acc": 0.5460122699386503,
+      "acc_stderr": 0.0391170190467718,
+      "acc_norm": 0.5460122699386503,
+      "acc_norm_stderr": 0.0391170190467718
     }
   },
   "versions": {
-    "hendrycksTest-elementary_mathematics": 1
+    "hendrycksTest-logical_fallacies": 1
   },
   "config": {
     "model": "hf-causal",

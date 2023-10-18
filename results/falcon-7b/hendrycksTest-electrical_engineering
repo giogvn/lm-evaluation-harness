@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hendrycksTest-electrical_engineering": {
+      "acc": 0.2827586206896552,
+      "acc_stderr": 0.037528339580033376,
+      "acc_norm": 0.2827586206896552,
+      "acc_norm_stderr": 0.037528339580033376
+    }
+  },
+  "versions": {
+    "hendrycksTest-electrical_engineering": 1
+  },
+  "config": {
+    "model": "hf-causal",
+    "model_args": "pretrained=tiiuae/falcon-7b",
+    "num_fewshot": 5,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

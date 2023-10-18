@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hendrycksTest-high_school_geography": {
+      "acc": 0.18181818181818182,
+      "acc_stderr": 0.027479603010538797,
+      "acc_norm": 0.18181818181818182,
+      "acc_norm_stderr": 0.027479603010538797
+    }
+  },
+  "versions": {
+    "hendrycksTest-high_school_geography": 1
+  },
+  "config": {
+    "model": "hf-causal",
+    "model_args": "pretrained=tiiuae/falcon-7b",
+    "num_fewshot": 5,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

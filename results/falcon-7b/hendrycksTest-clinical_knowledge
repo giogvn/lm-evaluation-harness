@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hendrycksTest-clinical_knowledge": {
+      "acc": 0.3018867924528302,
+      "acc_stderr": 0.028254200344438655,
+      "acc_norm": 0.3018867924528302,
+      "acc_norm_stderr": 0.028254200344438655
+    }
+  },
+  "versions": {
+    "hendrycksTest-clinical_knowledge": 1
+  },
+  "config": {
+    "model": "hf-causal",
+    "model_args": "pretrained=tiiuae/falcon-7b",
+    "num_fewshot": 5,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

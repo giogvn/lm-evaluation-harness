@@ -469,7 +469,278 @@
                 "num_fewshot": 0,
                 "batch_size": "2",
                 "elapsed_time": [
-                    205.24363218299914
+                    205.24363218299914,
+                    2048.873293959001
+                ]
+            }
+        ],
+        "hendrycksTest-abstract_algebra": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    357.07483141899866
+                ]
+            }
+        ],
+        "hendrycksTest-anatomy": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    420.2108692660004
+                ]
+            }
+        ],
+        "hendrycksTest-astronomy": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    700.208875837001
+                ]
+            }
+        ],
+        "hendrycksTest-business_ethics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    476.7999605240002
+                ]
+            }
+        ],
+        "hendrycksTest-clinical_knowledge": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    817.1300740170009
+                ]
+            }
+        ],
+        "hendrycksTest-college_chemistry": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    479.939431564002
+                ]
+            }
+        ],
+        "hendrycksTest-college_computer_science": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    667.8771586850016
+                ]
+            }
+        ],
+        "hendrycksTest-college_mathematics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    522.2663649599999
+                ]
+            }
+        ],
+        "hendrycksTest-college_medicine": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    689.0389319249989
+                ]
+            }
+        ],
+        "hendrycksTest-college_physics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    405.77913346700007
+                ]
+            }
+        ],
+        "hendrycksTest-computer_security": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    358.04159224999967
+                ]
+            }
+        ],
+        "hendrycksTest-conceptual_physics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    601.2656395839986
+                ]
+            }
+        ],
+        "hendrycksTest-econometrics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    583.8345158070006
+                ]
+            }
+        ],
+        "hendrycksTest-electrical_engineering": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    545.7929443370012
+                ]
+            }
+        ],
+        "hendrycksTest-elementary_mathematics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    1431.6716354210002
+                ]
+            }
+        ],
+        "hendrycksTest-formal_logic": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    632.7723536199992
+                ]
+            }
+        ],
+        "hendrycksTest-global_facts": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    378.01403245500114
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_biology": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    1123.2442501339974
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_chemistry": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    759.989425418993
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_computer_science": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    695.8400835499997
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_geography": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    597.4838487250017
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_government_and_politics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    705.7368457789999
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_macroeconomics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    1073.8117732000028
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_mathematics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    1056.459245681006
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_microeconomics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    724.1912381219954
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_physics": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    656.8439429770006
+                ]
+            }
+        ],
+        "hendrycksTest-high_school_psychology": [
+            {
+                "machine": "p3.2xlarge",
+                "num_fewshot": 5,
+                "batch_size": "2",
+                "elapsed_time": [
+                    1871.022591826004
                 ]
             }
         ]
